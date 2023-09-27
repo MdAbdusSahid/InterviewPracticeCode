@@ -17,10 +17,9 @@ public class IndexOccurrence {
     private static List indexOfOcc(String haystack, String needle) {
         List<Integer> occurrence=new ArrayList<>();
         for(int i=0;i<=haystack.length()-needle.length()+1;i++){
-            if(haystack.charAt(i)==needle.charAt(0)&& haystack.startsWith(needle, i) ){
+            if(haystack.charAt(i)==needle.charAt(0) && haystack.startsWith(needle, i) ){
                 
                     occurrence.add(i);
-
             }
         }
         return occurrence;
