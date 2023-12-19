@@ -8,7 +8,7 @@ if (areAnagram(str1, str2))
 System.out.println(x:"The string are Anagram");
 else
 System.out.println(x:"The string are not anagran");
-public static boolean areAnagram(string str1, String str2) f
+public static boolean areAnagram(string str1, String str2) {
 String s1 = str1.replaceA11(regex: "I\s", replacement:"");
 String s2 = str2.replaceAll(regex:"I\s", replacement:"");
 if (s1.length() l= s2.1ength())
