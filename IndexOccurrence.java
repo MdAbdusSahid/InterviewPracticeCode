@@ -25,6 +25,4 @@ public class IndexOccurrence {
         return occurrence;
     }
 }
-//if (haystack.charAt(i) == needle.charAt(0) &&                 
-
-//haystack.substring(i, i + needle.length()).equals(needle)) {
+//if (haystack.charAt(i) == needle.charAt(0) && haystack.substring(i, i + needle.length()).equals(needle)) {
