@@ -6,7 +6,7 @@ char[] chars = new char[len];
 
 for (int i = 0; i < len; i++) {
 
-chars [len 1 i] = str.charAt(i);
+chars [len - 1 - i] = str.charAt(i);
 
 }
 
