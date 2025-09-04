@@ -18,6 +18,8 @@ const makeDeepCopy=(arr)=>{
 return copiedVal
 }
 const newEmpList=makeDeepCopy(emp)
+const deepCopyObj = structuredClone(emp);
+console.log(deepCopyObj);
 console.log(newEmp[0].address.country="India");
 console.log(newEmp);
 console.log(emp);
