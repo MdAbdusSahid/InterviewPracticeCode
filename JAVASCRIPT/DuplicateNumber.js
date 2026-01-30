@@ -70,3 +70,12 @@ function duplicateNumber(nums) {
   }
   return xor;
 }
+
+| Approach       | Verdict        |
+| -------------- | -------------- |
+| Set / Map      | ✅ Best & clean |
+| Object         | ✅ Very common  |
+| Sorting        | ⚠️ Acceptable  |
+| filter/indexOf | ❌ Avoid        |
+| XOR            | ⭐ Advanced     |
+
