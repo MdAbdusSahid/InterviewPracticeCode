@@ -83,3 +83,11 @@ function binarySearch(nums, target, findFirst) {
 }
 
 console.log(findFirstLastPosition([2,3,4,4,4,5], 4)); // [2, 4]
+
+| Approach      | Time     | Space | Interview Rating |
+| ------------- | -------- | ----- | ---------------- |
+| Loop          | O(n)     | O(1)  | ✅ Safe           |
+| indexOf       | O(n)     | O(1)  | ✅ JS-friendly    |
+| reduce        | O(n)     | O(1)  | ⚠️ Fancy         |
+| Binary Search | O(log n) | O(1)  | ⭐ Best           |
+
