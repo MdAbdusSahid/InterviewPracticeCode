@@ -17,7 +17,7 @@ function isAnagram(str1, str2) {
   const freq = {};
 
   for (let ch of str1) freq[ch] = (freq[ch] || 0) + 1;
-  for (let ch of str2) {
+  for (let ch in str2) {
     if (!freq[ch]) return false; // char missing or extra
     freq[ch]--;
   }
