@@ -12,8 +12,8 @@ const makeDeepCopy=(arr)=>{
     if(typeof arr !== 'object' || typeof arr=== null)
         return arr
     var copiedVal=Array.isArray(arr)?[]:{}
-    Object.entries(arr).forEach(([key,value])=>{
-        copiedVal[key]=makeDeepCopy(value)
+    for(let key in arr)
+        copiedVal[key]=makeDeepCopy(arr[key])
 })
 return copiedVal
 }
