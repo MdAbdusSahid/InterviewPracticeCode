@@ -9,3 +9,13 @@ const charCount=(str,char)=>{
     return count
 }
 console.log(charCount('HelloIAmoooooo','o'));
+
+
+
+
+const charCount = (str, val) => {
+  const freq = {};
+  for (let i of str) freq[i] = (freq[i] || 0) + 1;
+  return freq[val] || 0;
+};
+console.log(charCount("HelloIAmoooooo", "o"));
